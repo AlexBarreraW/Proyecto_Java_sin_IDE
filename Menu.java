@@ -2,26 +2,26 @@ import java.util.Scanner;
 
 public class Menu {
     public static void main(String[] args) {
-        // Crear un objeto Scanner para leer la entrada del usuario
+        
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar al usuario que ingrese los datos
-        System.out.println("Ingrese la marca del vehículo:");
+        System.out.println("Ingrese la marca del vehículo:"); // Se ingrese marca
         String marca = scanner.nextLine();
 
-        System.out.println("Ingrese el modelo del vehículo:");
+        System.out.println("Ingrese el modelo del vehículo:"); // Se ingrese modelo
         String modelo = scanner.nextLine();
 
-        System.out.println("Ingrese la cilindrada del vehículo:");
+        System.out.println("Ingrese la cilindrada del vehículo:"); // Se ingrese cilindrada
         String cilindrada = scanner.nextLine();
 
-        System.out.println("Ingrese el tipo de combustible del vehículo:");
+        System.out.println("Ingrese el tipo de combustible del vehículo:"); // Se ingrese tipo de combustible
         String tipoCombustible = scanner.nextLine();
 
-        System.out.println("Ingrese la capacidad de pasajeros del vehículo:");
+        System.out.println("Ingrese la capacidad de pasajeros del vehículo:"); // Se ingrese capacidad de pasajeros
         int capacidadPasajeros = scanner.nextInt();
 
-        // Mostrar los datos ingresados por el usuario
+        // Todo lo de acá muestra los datos ingresados por el usuario
         System.out.println("La marca que ha ingresado es: " + marca);
         System.out.println("El modelo que ha ingresado es: " + modelo);
         System.out.println("La cilindrada que ha ingresado es: " + cilindrada);
