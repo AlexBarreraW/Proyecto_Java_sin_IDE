@@ -1,0 +1,15 @@
+Historia de Usuario:
+
+Historia de Usuario A:
+
+Como usuario, quiero ingresar mis datos personales (nombre y edad) para que el sistema pueda registrarlos y mostrarlos en pantalla.
+Criterios de Aceptación:
+El sistema debe solicitar el nombre y la edad al iniciar el programa.
+Los datos deben ser mostrados correctamente en la pantalla después de ingresados.
+
+Historia de Usuario B:
+
+Como usuario, quiero ingresar los datos de mi vehículo para que el sistema pueda registrarlos y mostrarlos en pantalla.
+Criterios de Aceptación:
+El sistema debe solicitar la marca, modelo, cilindrada, tipo de combustible y capacidad de pasajeros.
+Los datos del vehículo deben ser mostrados correctamente en la pantalla después de ingresados.
