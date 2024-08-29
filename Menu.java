@@ -1,6 +1,3 @@
-import java.util.Scanner;
-import java.util.Scanner;
-
 import java.util.Scanner; // Importa la clase Scanner del paquete java.util, que se utiliza para leer la entrada del usuario desde la consola.
 
 public class Menu { // Define una clase pública llamada Menu.
